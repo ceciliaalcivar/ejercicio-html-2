@@ -1,0 +1,15 @@
+header{
+    background-color: black;
+    height: 130px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 5fr 2fr 1fr 1fr 1fr 1fr;
+}
+p{
+    background-color: white;
+    display: inline;
+}
+img{
+    display: inline;
+}
