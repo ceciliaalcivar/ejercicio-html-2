@@ -4,12 +4,19 @@ header{
     padding-top: 30px;
     padding-bottom: 60px;
     display: grid;
-    grid-template-columns: 5fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 5fr 5fr;
 }
-p{
-    background-color: white;
-    display: inline;
-}
+
 img{
-    display: inline;
+   display:inline ;
+   align-self: center;
+
+
+}
+#interno{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
 }
