@@ -1,0 +1,79 @@
+@media screen and ( min-width:320px) and(max-width: 1000px){
+   
+}
+html{
+    background-color: transparent;
+}
+topbar{
+
+    #logo{
+        display: none;
+    }
+
+    #logo-mobile{
+        display: inline;
+        margin-left: 30px;
+    }
+    .Links{
+        grid-template-columns: 1fr;
+
+        .idiomas{
+            grid-template-columns: 1fr;
+            justify-items: end;
+            a{
+                display: none;
+            }
+        }
+
+
+        .registro{
+            display: none;
+        }
+    }
+}
+seccion{
+    grid-template-columns: 1fr;
+}
+
+.galeria{
+    
+    
+    .textos{
+        display: none;
+    }
+
+}
+@media screen and ( min-width:320px) and (max-width:1000px){
+    footer{
+     .gris{
+        display: none;
+     }
+
+  .negro{
+    .enlaces{
+        grid-template-columns: repeat(2,1fr);
+        .medio{
+              margin-top: 15px;
+              justify-self: baseline;
+              font-size: 18px;
+              font-weight: lighter;
+              color: #ddd;
+            }
+            .primera{
+              grid-column: span 2;
+            }
+            .ultima{
+              text-align: left;
+              justify-self: baseline;
+              grid-column: span 2;
+              margin-top: 30px;
+            }
+      }
+      .copy{
+          display: none;
+        }
+     
+
+
+    }  }
+}
